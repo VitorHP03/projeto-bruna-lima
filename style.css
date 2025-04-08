@@ -1,0 +1,332 @@
+* {
+  font-family: "inter";
+}
+
+body {
+  background-image: linear-gradient(rgb(255, 0, 170) white);
+}
+
+#menu-superior {
+  height: 200px;
+  padding: 50px;
+  margin-top: -10px;
+  margin-left: -8px;
+  margin-right: -8px;
+  display: grid;
+  grid-auto-flow: column;
+  columns: auto;
+  background-color: rgb(255, 80, 197);
+}
+
+#titulo-superior {
+  font-family: "lobster";
+  color: aliceblue;
+  border: 5px;
+  margin-left: 390px;
+  font-size: 350%;
+}
+
+#logo {
+  width: 250px;
+  height: 250px;
+  margin-top: -28px;
+}
+
+#flor {
+  width: 290px;
+  height: 259px;
+  margin-left: 400px;
+  margin-top: -30px;
+}
+
+#apresentacao {
+  color: rgb(255, 80, 197);
+  text-align: center;
+}
+
+#secao-video {
+  background-color: rgb(255, 0, 170);
+  padding: 70px;
+  margin-left: 5px;
+  margin-right: 5px;
+  display: grid;
+  grid-auto-flow: column;
+  columns: auto;
+  border-radius: 50px;
+  color: aliceblue;
+}
+
+#video1 {
+  border-radius: 30px;
+}
+
+#titulo-liso {
+  color: aliceblue;
+  font-family: "lobster";
+}
+
+#botao-liso {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 52px;
+  margin-top: 10px;
+  cursor: pointer;
+  background-color: aliceblue;
+  color: rgb(255, 0, 170);
+}
+
+#botao-liso:hover {
+  background-color: rgb(255, 80, 197);
+  color: black;
+  transition-duration: 500ms;
+  transform: translateY(-5px);
+  transition-duration: 300ms;
+  box-shadow: 0px 10px 15px 0px aliceblue;
+}
+
+#produtos {
+  width: 300px;
+  height: 300px;
+  margin-left: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#secao-liso {
+  display: grid;
+  grid-auto-flow: column;
+  columns: auto;
+}
+
+.titulo-produtos-lisos {
+  color: rgb(255, 0, 170);
+  font-family: "lobster";
+}
+
+.titulo-produtos-lisos:hover {
+  transform: translateX(-5px);
+  transition-duration: 300ms;
+}
+
+#coluna-2 {
+  margin-top: 40px;
+}
+
+#coluna-3 {
+  margin-top: 30px;
+}
+
+#cronograma-titulo {
+  font-family: "lobster";
+  text-align: center;
+  color: rgb(175, 72, 209);
+}
+
+#secao-cronograma {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 1000px;
+  margin-top: -100px;
+  margin-left: 470px;
+}
+
+#box1 {
+  margin-left: -500px;
+  margin-right: 20px;
+  width: 600px;
+  height: 750px;
+  border-radius: 50px;
+  box-shadow: 0px 3px 25px 5px rgba(0, 0, 0, 0.458);
+  background-color: rgb(199, 127, 223);
+  margin-top: 50px;
+  color: aliceblue;
+}
+
+#box2 {
+  margin-right: -530px;
+  margin-left: 50px;
+  width: 600px;
+  height: 200px;
+  border-radius: 50px;
+  box-shadow: 0px 3px 25px 5px rgba(0, 0, 0, 0.458);
+  margin-bottom: 493px;
+  background-color: rgb(199, 127, 223);
+  color: aliceblue;
+}
+
+#beneficios {
+  color: rgb(69, 0, 109);
+  font-family: "lobster";
+  text-align: center;
+}
+
+#texto-cron {
+  text-align: center;
+}
+
+#protecao {
+  color: rgb(69, 0, 109);
+  font-family: "lobster";
+  text-align: center;
+}
+
+#texto-prot {
+  text-align: center;
+}
+
+#box1:hover {
+  transform: translateY(-10px);
+  transition-duration: 500ms;
+}
+
+#box2:hover {
+  transform: translateY(-10px);
+  transition-duration: 500ms;
+}
+
+.traco {
+  color: rgb(199, 127, 223);
+}
+
+#prot1 {
+  width: 200px;
+  height: 200px;
+  margin-right: 100px;
+  margin-left: 800px;
+}
+
+#prot2 {
+  width: 200px;
+  height: 200px;
+}
+
+#imagens {
+  width: 500px;
+  height: 600px;
+  margin-right: 0px;
+  margin-bottom: -380px;
+  margin-left: -15px;
+}
+
+#protetor1 {
+  width: 200px;
+  height: 200px;
+}
+
+#protetor2 {
+  width: 250px;
+  height: 200px;
+  margin-left: 45px;
+}
+
+#protetor3 {
+  width: 200px;
+  height: 200px;
+  margin-top: 50px;
+}
+
+#protetor4 {
+  width: 200px;
+  height: 200px;
+  margin-left: 70px;
+}
+
+#secao-creme {
+  background-color: rgb(255, 154, 53);
+  color: rgb(69, 0, 109);
+  text-align: center;
+  border-radius: 30px;
+  width: 600px;
+  margin-left: 468px;
+}
+
+#titulo-hidrata {
+  padding: 20px;
+  font-family: "lobster";
+}
+
+#cremes-hidratacao {
+  display: grid;
+  grid-auto-flow: column;
+  columns: auto;
+}
+
+#hidrat1 {
+  width: 300px;
+  height: 300px;
+  margin-left: 65px;
+}
+
+#hidrat2 {
+  width: 230px;
+  height: 270px;
+  margin-left: 0px;
+  margin-top: 30px;
+}
+
+#hidrat3 {
+  width: 170px;
+  height: 190px;
+  margin-left: 0px;
+  margin-top: 60px;
+}
+
+#hidrat4 {
+  width: 200px;
+  height: 200px;
+  margin-top: 50px;
+  margin-right: 00px;
+}
+
+.sub {
+  text-align: center;
+  color: rgb(255, 154, 53);
+  margin-bottom: -10px;
+  margin-top: 30px;
+}
+
+#nutritivos {
+  display: grid;
+  grid-auto-flow: column;
+  columns: auto;
+}
+
+#nutri1 {
+  width: 300px;
+  height: 300px;
+  margin-left: 50px;
+}
+
+#nutri2 {
+  width: 170px;
+  height: 170px;
+  margin-top: 110px;
+}
+
+#nutri3 {
+  width: 260px;
+  height: 260px;
+  margin-top: 27px;
+}
+
+#nutri4 {
+  width: 190px;
+  height: 180px;
+  margin-top: 90px;
+}
+
+#recons {
+  width: 300px;
+  height: 300px;
+  margin-left: 615px;
+  margin-top: 10px;
+}
+
+#final {
+  background-color: black;
+  color: aliceblue;
+  text-align: center;
+  border-radius: 10px;
+}
